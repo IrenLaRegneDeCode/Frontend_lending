@@ -1,0 +1,178 @@
+@media screen and (min-width: 600px){
+    .header{        
+        flex-direction: column;   
+    }
+
+    .menu-item{        
+        display: flex;
+        flex-direction: column; 
+    }
+
+    
+
+}
+
+header{
+    position: relative;
+    width: 100%;    
+    background: #131313;
+    display: flex;
+    padding: 10px;
+    margin: 0px;
+}
+
+.header-item{
+    display: flex;
+    flex-direction: row; 
+    position: inherit;
+    width: 55%;    
+    align-items: center;
+    padding: 5px 5px 5px 20px;
+    text-align: center;
+   
+}
+
+.last-col{
+    position: relative;
+    align-items: center;
+    width: 25%;
+    
+}
+
+.a{
+    color: #E3B873;
+}
+
+.space{
+    width: 20%;
+    padding-left: 50px;
+    
+}
+
+.button{
+    background: #E3B873;
+    box-shadow: 0px 5px 15px  
+        rgba(227, 184, 115, 0.2); 
+    border-radius: 2px;
+    color:#FFFFFF; 
+    padding: 5px;
+    width: 130px;
+}
+
+/* in case of changing the button like onClick */
+/* .button2{
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 5px 15px 
+        rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    color:#FFFFFF;    
+    margin: 10px;
+    padding: 5px;
+} */
+
+.menu-text{
+    font-family: Nunito Sans;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #E3B873;
+    
+}
+
+main{
+    background-image: url(image/main-image.jpg);  /* Путь к фоновому изображению */
+    background-color:  rgba(0, 0, 0, 0.7); /*Цвет фона */    
+    display:inline-flex;
+    flex-direction: column; 
+    width: 100%;  
+    /* height: 100%;  */
+    padding-top: 100px;
+}
+
+.main-content{
+    display: block;
+    width: 35%; 
+    height: 10%;   
+    padding: 10px;
+    align-self: center;
+    padding-left: 100px;  
+}
+
+.main-text{
+    font: Yeseva One;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.content-text{
+    font-family: Nunito Sans;
+    font-style: Regular;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+
+.title-text{
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.text-span{
+    font: Yeseva One;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.main-buttons{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    margin-left: 50px;
+    align-content: start;
+}
+
+.project{
+display: flex;
+flex-direction: row;
+width: 100%;
+/* padding: 50px 10px 10px 100px; */
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: black;
+    padding-left: 100px;
+    /* padding: 50px 10px 10px 100px; */
+    align-items: center;
+
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: black;
+    
+}
+
+.image-style{
+    align-items: center;
+    padding: 20px;
+}
